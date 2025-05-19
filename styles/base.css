@@ -1,0 +1,114 @@
+body {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    background-color: #ffffff;
+    color: #284259;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+header {
+    background-color: #284259;
+    color: #BF9445;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #BF9445;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 2rem; 
+}
+
+nav li {
+    display: inline;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 2px solid #A6702E;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 400px;
+    flex: 1 1 300px;
+}
+
+.card h2 {
+    color: #593325;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #593325;
+    color: #BFA288;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+.about-me-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-photo {
+    width: 120px;
+    border-radius: 8px;
+}
+
+.location {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.flag {
+    width: 100px;
+    height: auto;
+}
+
+.card h2 {
+    color: #593325;
+    background-color: #f3e5d0;
+    padding: 0.5rem;
+    border-radius: 4px;
+    text-align: center;
+}
