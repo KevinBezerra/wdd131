@@ -1,0 +1,93 @@
+body {
+    font-family: "Courier Prime", monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #284259;
+}
+
+header {
+    background-color: #284259;
+    color: #BF9445;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#menu {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #BF9445;
+    cursor: pointer;
+}
+
+#navMenu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #3a5872;
+}
+
+#navMenu.open {
+    display: flex;
+}
+
+#navMenu a {
+    color: #BF9445;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #284259;
+}
+
+#navMenu a:hover {
+    background-color: #4a6c8a;
+}
+
+main h1 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+    justify-items: center;
+}
+
+figure {
+    margin: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 400px;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    text-align: center;
+    padding: 0.75rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #284259;
+    color: #BF9445;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
