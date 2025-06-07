@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Country Page: Brazil</title>
     <meta name="description" content="A summary page for Brazil, created for a WDD 131 class assignment.">
-    <meta name="author" content="[Your Name Here]">
+    <meta name="author" content="Kevin Bezerra">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles/place.css">
     <script src="scripts/place.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Brazil</h1>
+        <h1>Country Profile: Brazil</h1>
     </header>
     <main>
         <picture class="hero-image">
-            <img src="images/rio_de_janeiro.webp" alt="Christ the Redeemer statue in Rio de Janeiro">
+            <source media="(min-width: 768px)" srcset="images/rio_de_janeiro.webp">
+            
+            <img src="images/small_rio.webp" alt="Christ the Redeemer statue in Rio de Janeiro">
         </picture>
         <section class="data-card">
             <h2>Data</h2>
@@ -53,7 +60,7 @@
         </section>
     </main>
     <footer>
-        <p>©<span id="currentyear"></span> [Your Name Here] - Brazil</p>
+        <p>©<span id="currentyear"></span> Kevin Bezerra - Brazil</p>
         <p>Last Modification: <span id="lastmodified"></span></p>
     </footer>
 </body>
