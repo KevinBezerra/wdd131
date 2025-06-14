@@ -1,0 +1,128 @@
+body {
+    font-family: "Courier Prime", monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #284259;
+}
+
+header {
+    background-color: #284259;
+    color: #BF9445;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#menu {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #BF9445;
+    cursor: pointer;
+    display: block;
+}
+
+#navMenu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #3a5872;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+#navMenu.open {
+    display: flex;
+}
+
+#navMenu a {
+    color: #BF9445;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #284259;
+}
+
+#navMenu a:hover {
+    background-color: #4a6c8a;
+}
+
+main {
+    padding: 1rem;
+}
+
+.page-title {
+    text-align: center;
+    margin: 1rem 0;
+    color: #284259;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+}
+
+figure {
+    margin: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    text-align: left;
+    padding: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+figcaption h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #284259;
+    color: #BF9445;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    #menu {
+        display: none;
+    }
+
+    #navMenu {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        width: auto;
+        background-color: transparent;
+    }
+
+    #navMenu a {
+        border-top: none;
+        padding: 0 1rem;
+    }
+}
