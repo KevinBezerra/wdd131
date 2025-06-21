@@ -101,6 +101,8 @@ header nav a:hover, header nav a.active {
     text-align: center;
     color: white;
     margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .hero img {
@@ -116,6 +118,7 @@ header nav a:hover, header nav a.active {
     padding: 1rem 2rem;
     border-radius: 8px;
     width: 80%;
+    max-width: 550px;
 }
 
 .hero h2 {
