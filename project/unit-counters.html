@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Counters | AoE II Compendium</title>
+    <meta name="description" content="Learn about the core unit counter system in Age of Empires II, including spears vs. cavalry and archers vs. skirmishers.">
+    <meta name="author" content="Kevin Bezerra">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><h1>AoE II Compendium</h1></a>
+        <button id="menu-button" aria-label="Open Navigation Menu">&#9776;</button>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="civilizations.html">Civilizations</a>
+            <a href="unit-counters.html" class="active">Unit Counters</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <h2>The Unit Counter System</h2>
+            <p>Success in Age of Empires II depends on understanding the "rock-paper-scissors" system. Nearly every unit has a counter, and building the right units to defeat your opponent's army is key to victory. Below are the most fundamental counters in the game.</p>
+        </section>
+
+        <section class="counters-grid">
+            <div class="counter-card">
+                <h3>Barracks Counter</h3>
+                <div class="counter-body">
+                    <div class="unit-info">
+                        <img src="images/Spearman_aoe2DE.webp" alt="A Spearman unit" loading="lazy">
+                        <h4>Spearman-line</h4>
+                    </div>
+                    <div class="arrow">→</div>
+                    <div class="unit-info">
+                        <img src="images/Knight_aoe2DE.webp" alt="A Knight unit" loading="lazy">
+                        <h4>Cavalry</h4>
+                    </div>
+                </div>
+                <p class="explanation">Spearmen and Pikemen are cost-effective infantry that deal massive bonus damage to cavalry. Always build them to defend against Knights and other mounted units.</p>
+            </div>
+
+            <div class="counter-card">
+                <h3>Archery Range Counter</h3>
+                <div class="counter-body">
+                    <div class="unit-info">
+                        <img src="images/Elite_skirmisher_aoe2DE.webp" alt="An Elite Skirmisher unit" loading="lazy">
+                        <h4>Skirmisher-line</h4>
+                    </div>
+                    <div class="arrow">→</div>
+                    <div class="unit-info">
+                        <img src="images/Arbalester_aoe2DE.webp" alt="An Arbalester unit" loading="lazy">
+                        <h4>Archers</h4>
+                    </div>
+                </div>
+                <p class="explanation">Skirmishers have high pierce armor, making them resistant to arrow fire. They also deal bonus damage to archer-line units, making them the perfect counter.</p>
+            </div>
+
+            <div class="counter-card">
+                <h3>Stable Counter</h3>
+                <div class="counter-body">
+                    <div class="unit-info">
+                        <img src="images/Hussar_aoe2DE.webp" alt="A Hussar unit" loading="lazy">
+                        <h4>Light Cavalry</h4>
+                    </div>
+                    <div class="arrow">→</div>
+                    <div class="unit-info">
+                        <img src="images/Monk_aoe2DE.webp" alt="A Monk unit" loading="lazy">
+                        <h4>Monks & Siege</h4>
+                    </div>
+                </div>
+                <p class="explanation">Fast-moving Light Cavalry and Hussars are excellent for raiding. They excel at quickly closing the distance to destroy slow-moving siege weapons and have high conversion resistance against monks.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Kevin Bezerra | WDD 131 Final Project</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+        <p><a href="attributions.html">Attributions</a></p>
+    </footer>
+</body>
+</html>

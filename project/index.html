@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AoE II Compendium</title>
+    <meta name="description" content="An informational hub and digital compendium for the classic RTS game Age of Empires II.">
+    <meta name="author" content="Kevin Bezerra">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><h1>AoE II Compendium</h1></a>
+        <button id="menu-button" aria-label="Open Navigation Menu">&#9776;</button>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="civilizations.html">Civilizations</a>
+            <a href="unit-counters.html">Unit Counters</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="images/epic_battle.jpg" alt="Epic battle scene from Age of Empires II" loading="lazy">
+            <div class="hero-text">
+                <h2>Strategy, History, Victory</h2>
+                <p>Explore the diverse civilizations of a timeless classic.</p>
+            </div>
+        </section>
+        
+        <section class="featured-civs-section">
+            <h2>Featured Civilizations</h2>
+            <div id="featured-civs-container" class="gallery-grid">
+                <p>Loading civilizations...</p>
+            </div>
+        </section>
+
+        <section class="pro-players-section">
+            <h2>Highest Elo Rated Players</h2>
+            <p>A look at some of the top professional players in the competitive scene, based on recent tournament performance and Elo ratings.</p>
+            <ol class="player-ranking">
+                <li><span>Hera</span> (Canada)</li>
+                <li><span>TheViper</span> (Norway)</li>
+                <li><span>Liereyy</span> (Austria)</li>
+                <li><span>Mr_Yo</span> (China)</li>
+                <li><span>TaToH</span> (Spain)</li>
+            </ol>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Contact Us</h2>
+            <p>Have feedback or a question? Fill out the form below!</p>
+            <form action="thankyou.html" method="get" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+
+                <label>Message Type:</label>
+                <div class="radio-group">
+                    <input type="radio" id="general" name="message_type" value="General" checked>
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="feedback" name="message_type" value="Feedback">
+                    <label for="feedback">Feedback</label>
+                    <input type="radio" id="question" name="message_type" value="Question">
+                    <label for="question">Question</label>
+                </div>
+                
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <label class="subscribe-label">
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    Subscribe to our newsletter
+                </label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Kevin Bezerra | WDD 131 Final Project</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+        <p><a href="attributions.html">Attributions</a></p>
+    </footer>
+</body>
+</html>

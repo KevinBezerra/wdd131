@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civilizations | AoE II Compendium</title>
+    <meta name="description" content="Browse and filter through all the civilizations available in Age of Empires II.">
+    <meta name="author" content="Kevin Bezerra">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><h1>AoE II Compendium</h1></a>
+        <button id="menu-button" aria-label="Open Navigation Menu">&#9776;</button>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="civilizations.html" class="active">Civilizations</a>
+            <a href="unit-counters.html">Unit Counters</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery-header">
+            <h2>Civilization Gallery</h2>
+            <div id="filter-controls">
+                <button data-filter="all" class="active">All</button>
+                <button data-filter="Archery">Archery</button>
+                <button data-filter="Cavalry">Cavalry</button>
+                <button data-filter="Infantry">Infantry</button>
+                <button data-filter="Gunpowder">Gunpowder</button>
+                <button data-filter="Defense">Defense</button>
+            </div>
+        </section>
+
+        <section id="civ-gallery" class="gallery-grid">
+            <p>Loading civilizations...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Kevin Bezerra | WDD 131 Final Project</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+        <p><a href="attributions.html">Attributions</a></p>
+    </footer>
+</body>
+</html>
