@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const createCivCard = (civ) => {
+    const createCivCard = (civ, imageSize) => {
         const card = document.createElement('div');
         card.className = 'civ-card';
         card.innerHTML = `
-            <img src="${civ.emblem}" alt="${civ.name} Emblem" loading="lazy" width="100" height="100">
+            <img src="${civ.emblem}" alt="${civ.name} Emblem" loading="lazy" width="${imageSize}" height="${imageSize}">
             <h3>${civ.name}</h3>
             <p><strong>Focus:</strong> ${civ.focus}</p>
             <p><strong>Unique Unit:</strong> ${civ.unique_unit}</p>
@@ -49,10 +49,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const displayAllCivs = (civs) => {
         const gallery = document.getElementById('civ-gallery');
         if (!gallery) return;
-        gallery.innerHTML = '';
+        const cardFragment = document.createDocumentFragment();
         civs.forEach(civ => {
-            gallery.appendChild(createCivCard(civ));
+            cardFragment.appendChild(createCivCard(civ, 90));
         });
+        gallery.innerHTML = '';
+        gallery.appendChild(cardFragment);
     };
 
     const displayFeaturedCivs = (civs) => {
@@ -60,10 +62,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!container) return;
         const shuffled = [...civs].sort(() => 0.5 - Math.random());
         const selected = shuffled.slice(0, 4);
-        container.innerHTML = '';
+        const cardFragment = document.createDocumentFragment();
         selected.forEach(civ => {
-            container.appendChild(createCivCard(civ));
+            cardFragment.appendChild(createCivCard(civ, 360));
         });
+        container.innerHTML = '';
+        container.appendChild(cardFragment);
     };
 
     const setupFilters = (allCivs) => {
