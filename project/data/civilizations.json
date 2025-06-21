@@ -1,50 +1,50 @@
 [
   {
-    "id": 1, "name": "Britons", "focus": "Archery", "unique_unit": "Longbowman", "emblem": "images/Britons_AoE2.png",
+    "id": 1, "name": "Britons", "focus": "Archery", "unique_unit": "Longbowman", "emblem": "images/Britons_AoE2.webp",
     "summary": "A powerful archery civilization with foot archers that outrange all others. Their Town Centers are cheaper, encouraging early economic growth."
   },
   {
-    "id": 2, "name": "Franks", "focus": "Cavalry", "unique_unit": "Throwing Axeman", "emblem": "images/Franks_AoE2.jpg",
+    "id": 2, "name": "Franks", "focus": "Cavalry", "unique_unit": "Throwing Axeman", "emblem": "images/Franks_AoE2.webp",
     "summary": "A cavalry powerhouse with extra hitpoints and heavily armored Paladins. Their castles are cheaper, and they have free farm upgrades."
   },
   {
-    "id": 3, "name": "Goths", "focus": "Infantry", "unique_unit": "Huskarl", "emblem": "images/Goths_AoE2.jpg",
+    "id": 3, "name": "Goths", "focus": "Infantry", "unique_unit": "Huskarl", "emblem": "images/Goths_AoE2.webp",
     "summary": "An infantry-spamming civilization that produces units quickly and cheaply. Their infantry get a bonus against buildings."
   },
   {
-    "id": 4, "name": "Teutons", "focus": "Infantry", "unique_unit": "Teutonic Knight", "emblem": "images/Teutons_AoE2.jpg",
+    "id": 4, "name": "Teutons", "focus": "Infantry", "unique_unit": "Teutonic Knight", "emblem": "images/Teutons_AoE2.webp",
     "summary": "A slow but powerful defensive and infantry civilization. Their units have high melee armor, and their towers can garrison more units."
   },
   {
-    "id": 5, "name": "Japanese", "focus": "Infantry", "unique_unit": "Samurai", "emblem": "images/Japanese_AoE2.jpg",
+    "id": 5, "name": "Japanese", "focus": "Infantry", "unique_unit": "Samurai", "emblem": "images/Japanese_AoE2.webp",
     "summary": "A strong infantry civilization whose military units attack faster. Their fishing ships have double the hitpoints and work faster."
   },
   {
-    "id": 6, "name": "Chinese", "focus": "Archery", "unique_unit": "Chu Ko Nu", "emblem": "images/Chinese_AoE2.jpg",
+    "id": 6, "name": "Chinese", "focus": "Archery", "unique_unit": "Chu Ko Nu", "emblem": "images/Chinese_AoE2.webp",
     "summary": "A versatile civilization with a strong start. They begin with more villagers but less food. Their technologies are cheaper."
   },
   {
-    "id": 7, "name": "Byzantines", "focus": "Defense", "unique_unit": "Cataphract", "emblem": "images/Byzantines_AoE2.jpg",
+    "id": 7, "name": "Byzantines", "focus": "Defense", "unique_unit": "Cataphract", "emblem": "images/Byzantines_AoE2.webp",
     "summary": "A defensive powerhouse with cheaper counter-units and buildings with more hitpoints. Their unique unit is strong against infantry."
   },
   {
-    "id": 8, "name": "Persians", "focus": "Cavalry", "unique_unit": "War Elephant", "emblem": "images/Persians_AoE2.jpg",
+    "id": 8, "name": "Persians", "focus": "Cavalry", "unique_unit": "War Elephant", "emblem": "images/Persians_AoE2.webp",
     "summary": "An economic and cavalry-focused civilization. They start with extra wood and food and their Town Centers and Docks work faster."
   },
   {
-    "id": 9, "name": "Saracens", "focus": "Cavalry", "unique_unit": "Mameluke", "emblem": "images/Sarracens_AoE2.webp",
+    "id": 9, "name": "Saracens", "focus": "Cavalry", "unique_unit": "Mameluke", "emblem": "images/Saracens_AoE2.webp",
     "summary": "A civilization with a strong market and powerful camel and naval units. Their archers have an attack bonus against buildings."
   },
   {
-    "id": 10, "name": "Turks", "focus": "Gunpowder", "unique_unit": "Janissary", "emblem": "images/Turks_AoE2.jpg",
+    "id": 10, "name": "Turks", "focus": "Gunpowder", "unique_unit": "Janissary", "emblem": "images/Turks_AoE2.webp",
     "summary": "A dominant gunpowder civilization. Their gunpowder units have more hitpoints, and their technologies are researched faster."
   },
   {
-    "id": 11, "name": "Vikings", "focus": "Infantry", "unique_unit": "Berserk", "emblem": "images/Vikings_AoE2.jpg",
+    "id": 11, "name": "Vikings", "focus": "Infantry", "unique_unit": "Berserk", "emblem": "images/Vikings_AoE2.webp",
     "summary": "A strong naval and infantry civilization. Their warships are cheaper, and their infantry have more hitpoints."
   },
   {
-    "id": 12, "name": "Mongols", "focus": "Cavalry", "unique_unit": "Mangudai", "emblem": "images/Mongols_AoE2.jpg",
+    "id": 12, "name": "Mongols", "focus": "Cavalry", "unique_unit": "Mangudai", "emblem": "images/Mongols_AoE2.webp",
     "summary": "A fast-paced civilization with excellent cavalry archers and siege units. Their hunters work faster."
   }
 ]
