@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const card = document.createElement('div');
         card.className = 'civ-card';
         card.innerHTML = `
-            <img src="${civ.emblem}" alt="${civ.name} Emblem" loading="lazy">
+            <img src="${civ.emblem}" alt="${civ.name} Emblem" loading="lazy" width="100" height="100">
             <h3>${civ.name}</h3>
             <p><strong>Focus:</strong> ${civ.focus}</p>
             <p><strong>Unique Unit:</strong> ${civ.unique_unit}</p>
